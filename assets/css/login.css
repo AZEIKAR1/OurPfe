@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ustom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+.gender-radio {
+    display: flex;
+    align-items: center;
+}
+
+.gender-radio input[type="radio"] {
+    margin-right: 10px;
+}
+
+.gender-radio label {
+    margin-right: 20px;
+}
+
+
+
+.back-to-home {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+
+
+
+
