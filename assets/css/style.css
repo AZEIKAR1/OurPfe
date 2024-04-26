@@ -316,6 +316,9 @@ button, a { transition: var(--transition); }
 }
 
 .navbar-link {
+  display: inline-flex;
+  align-items: center; /* Align vertically */
+  gap: 5px;
   color: var(--independence);
   font-family: var(--ff-nunito);
   font-size: var(--fs-6);
@@ -984,7 +987,7 @@ button, a { transition: var(--transition); }
   .hero-banner {
     display: block;
     background: url("../images/hero-banner.png") no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: left;
     position: absolute;
     top: 100px;
@@ -1133,7 +1136,8 @@ button, a { transition: var(--transition); }
 
   .navbar-list {
     display: flex;
-    gap: 50px;
+    align-items: center;
+    gap: 40px;
   }
 
 

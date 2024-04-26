@@ -24,7 +24,7 @@
     
 </head>
 <body>
-
+<section class="section hero"> 
 <div class="hero-banner"></div>
 
 
@@ -71,6 +71,30 @@
     </form>
     <a href="index.php" class="back-to-home"><i class="fas fa-arrow-left"></i> Back to Home </a>
 </div>
+
+
+</section>
+
+<!-- 
+    - #FOOTER
+  -->
+
+
+  <?php include 'includes/footer.php'; ?>
+
+
+
+  
+<script src="./assets/js/script.js"></script>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+
 
 </body>
 </html>

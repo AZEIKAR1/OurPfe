@@ -16,7 +16,7 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
+  <link rel="stylesheet" href="./assets/css/mybooking.css">
   <!-- 
     - google font link
   -->
@@ -34,51 +34,41 @@
 
   <?php include 'includes/header.php'; ?>
 
+  <!-- #content -->
 
+  
+    
+     <section class="section hero" id="">
 
+              <div class="container">
+                <div class="title-wrapper" >
 
+                    <h2 class="h1 section-title">Your Bookings</h2>
 
-  <main>
-    <article>
+                      <p > Hope you enjoyed our service </p>
+                </div>
+                    <table id="customers">
+                                    
+                      <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                      </tr>
+                      <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                      </tr>
 
-      <!-- 
-        - #firstpage
-      -->
+                    </table>
 
-      
-      <?php include 'includes/firstpage.php'; ?>
-
-
-
-
-      <!-- 
-        - #FEATURED CAR
-      -->
-
-      <?php include 'includes/featuredcar.php'; ?>
-
-
-
-
-      <!-- 
-        - #GETSTARTED
-      -->
-
-      
-      <?php include 'includes/getstarted.php'; ?>
-
-
-
-
-      <!-- 
-        - #BLOG
-      -->
-
-      
-      </article>
-  </main>
-
-
+            
+              </div>
+           
+  
+     </section>
+  
+    
 <!-- 
     - #FOOTER
   -->
@@ -97,7 +87,7 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+   
 </body>
 
 </html>

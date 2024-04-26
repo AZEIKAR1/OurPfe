@@ -1,18 +1,27 @@
+/* Make body and html take up full height */
 body, html {
     height: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
-    
 }
 
-ustom-select-wrapper {
+/* Main content container */
+.main-content {
+    flex: 1; /* Fill remaining vertical space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom select wrapper */
+custom-select-wrapper {
     position: relative;
     display: inline-block;
     width: 100%;
 }
 
+/* Custom select styles */
 .custom-select {
     display: block;
     width: 100%;
@@ -29,6 +38,8 @@ ustom-select-wrapper {
     appearance: none;
     cursor: pointer;
 }
+
+/* Gender radio button wrapper */
 .gender-radio {
     display: flex;
     align-items: center;
@@ -43,7 +54,6 @@ ustom-select-wrapper {
 }
 
 
-
 .back-to-home {
     text-decoration: none;
     color: #333;
@@ -52,8 +62,3 @@ ustom-select-wrapper {
     display: inline-block;
     padding-right: 15px;
 }
-
-
-
-
-

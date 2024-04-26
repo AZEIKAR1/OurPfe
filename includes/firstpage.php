@@ -21,7 +21,7 @@
             </div>
 
             <div class="input-wrapper">
-              <label for="input-2" class="input-label">Max. monthly payment</label>
+              <label for="input-2" class="input-label">Max. daily payment</label>
 
               <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder="Add an amount in $">
             </div>
