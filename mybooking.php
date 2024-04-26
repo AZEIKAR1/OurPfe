@@ -43,21 +43,24 @@
               <div class="container">
                 <div class="title-wrapper" >
 
-                    <h2 class="h1 section-title">Your Bookings</h2>
+                    <h2 class="h1 hero-title">Your Bookings</h2>
 
-                      <p > Hope you enjoyed our service </p>
                 </div>
                     <table id="customers">
                                     
                       <tr>
-                        <th>Company</th>
-                        <th>Contact</th>
-                        <th>Country</th>
+                        <th>Car</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Number of Days</th>
+                        <th>Total Amount</th>
                       </tr>
                       <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
+                        <td>dacia</td>
+                        <td>26-4-2024</td>
+                        <td>27-4-2024</td>
+                        <td>15 days</td>
+                        <td>600 DH</td>
                       </tr>
 
                     </table>

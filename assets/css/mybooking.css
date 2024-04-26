@@ -2,11 +2,16 @@
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
+
   }
   
   #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
+    
+  }
+ td {
+  text-wrap: nowrap;
   }
   
   #customers tr:nth-child(even){background-color: #f2f2f2;}

@@ -18,7 +18,7 @@
 
           <li>
           
-            <a href="#featured-car" class="navbar-link" data-nav-link>Explore <ion-icon name="car-outline"></ion-icon> cars</a>
+            <a href="#featured-car" class="navbar-link" data-nav-link>Explore <ion-icon name="car-outline"></ion-icon> Cars</a>
           </li>
 
           <li>
@@ -30,7 +30,7 @@
           </li>
 
              <li>
-              <a href="#featured-car" class="btn navbar-link" aria-labelledby="aria-label-txt">
+              <a href="#featured-car" class="btn " aria-labelledby="aria-label-txt">
 
 
 
@@ -39,7 +39,7 @@
             </a>
             </li>
             <li>
-                <a href="#featured-car" class="btn navbar-link" aria-labelledby="aria-label-txt">
+                <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
 
                   <span id="aria-label-txt" onclick="redirectTosignup()">SIGNUP</span>
                   
@@ -51,7 +51,7 @@
       <div class="header-actions">
 
           <div class="header-contact">
-            <a href="tel:88002345678" class="contact-link">8 800 234 56 78</a>
+            <a href="tel:88002345678" class="contact-link">+212 6 11 13 42 61</a>
 
             <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
           </div>
